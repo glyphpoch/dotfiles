@@ -66,3 +66,8 @@ set expandtab
 set shiftwidth=4
 set smarttab
 
+" -----------------
+" Key mappings
+" -----------------
+map <C-z> <Nop>
+
