@@ -1,0 +1,30 @@
+theme = "modern"
+icons = "awesome"
+
+[[block]]
+block = "memory"
+format_mem = "{Mum}MB/{MTm}MB({Mup}%)"
+format_swap = "{SUm}MB/{STm}MB({SUp}%)"
+display_type = "memory"
+icons = true
+clickable = true
+interval = 5
+warning_mem = 80
+warning_swap = 80
+critical_mem = 95
+critical_swap = 95
+
+[[block]]
+block = "cpu"
+interval = 1
+format = "{utilization}% {frequency}GHz"
+
+[[block]]
+block = "keyboard_layout"
+driver = "setxkbmap"
+interval = 60
+
+[[block]]
+block = "time"
+interval = 60
+format = "%a %d/%m/%y %R"
